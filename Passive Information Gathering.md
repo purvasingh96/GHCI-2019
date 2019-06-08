@@ -22,3 +22,11 @@ run nikto
 provide <target-host/IP-address>
 nikto -h <target-host/IP-address> 
 ```
+# EmailHarvester
+* [EmailHarvester](https://github.com/maldevel/EmailHarvester) tool to retrieve Domain email addresses from Search Engines.
+
+| S.No | EmailHarvester commands                                  | Description                                  |
+|------|----------------------------------------------------------|----------------------------------------------|
+| 1.   | `./EmailHarvester.py -d example.com -e google `            | Search in Google                             |
+| 2.   | `./EmailHarvester.py -d example.com -e googleplus`         | Search in site using Search engines          |
+| 3.   | `./EmailHarvester.py -d example.com -e all -r twitter,ask` | Search in all engines/sites but exclude some |
