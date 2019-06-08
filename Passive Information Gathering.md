@@ -30,3 +30,22 @@ nikto -h <target-host/IP-address>
 | 1.   | `./EmailHarvester.py -d example.com -e google `            | Search in Google                             |
 | 2.   | `./EmailHarvester.py -d example.com -e googleplus`         | Search in site using Search engines          |
 | 3.   | `./EmailHarvester.py -d example.com -e all -r twitter,ask` | Search in all engines/sites but exclude some |
+
+# Shodan Search Engine
+
+[Shodan](https://www.shodan.io/) is a search engine that lets user find specific types of computers connected to internet using variety of filters.
+
+# DNS Zone transfers with Dig
+
+* Dig command reads the /etc/resolv.conf file and querying the DNS servers listed there. The response from the DNS server is what dig displays.
+* Using dig (domain information groper), attackers can make use of replication for primary and secondary DNS servers in order to be synchronized.
+* From secondary server, attackers can ask for data from primary server.
+* Primary server answers with copy of database which has IP-address and host names.
+* If attackers get hold of all your DNS records, they can use those records to replicate DB across group of DNS servers
+* **Sample commands** -<br>
+
+| S.No | Dig commands         | Description                         |
+|------|----------------------|-------------------------------------|
+| 1.   | `dig yahoo.com +short` | Query Domain “A” Record with +short |
+| 2.   | `dig yahoo.com MX`     | Querying MX Record for Domain       |
+| 3.   | `dig yahoo.com SOA`    | Querying SOA Record for Domain      |
