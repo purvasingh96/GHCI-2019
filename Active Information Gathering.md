@@ -21,3 +21,14 @@ To play-around with active information gathering concepts, [Metasploitable2](htt
 | 3.   | `nmap -sV <your-ip-address>` | Standard service detection |
 | 4.   | `nmap -sT 192.168.1.1`       | Scan using TCP connect     |
 | 5.   | `nmap -sS 192.168.1.1`     | Scan using TCP SYN scan (default) |
+
+# By-pass Firewalls with N-Maps
+
+* *ACK signal* can be used to bypass some of the rules of router.
+* If there is a rule that allows SYN-packets only from inter-network (machines that are on target machine's local network), and a 3-way handshake rule is enabled, you can trick the target PC by sending only *ACK signal*, which would make PC think it is a response to previous SYN-ACK bit.
+* Whenever N-Map sends packets and if target PC knows that N-Map exists, they can make a rule that blocks any packets of standard N-Map size.
+
+| S.No | N-Map commands                        | Description                                             |
+|------|---------------------------------------|---------------------------------------------------------|
+| 1.   | `nmap -sA <your-ip-address>`            | Use when there is a blockage  of SYN bit-set on target  |
+| 2.   | `nmap --data -length <your-ip-address>` | Detect standard length of N-Map's packet size           |
