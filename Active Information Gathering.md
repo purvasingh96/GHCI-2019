@@ -32,3 +32,23 @@ To play-around with active information gathering concepts, [Metasploitable2](htt
 |------|---------------------------------------|---------------------------------------------------------|
 | 1.   | `nmap -sA <your-ip-address>`            | Use when there is a blockage  of SYN bit-set on target  |
 | 2.   | `nmap --data -length <your-ip-address>` | Detect standard length of N-Map's packet size           |
+
+# Spoofing MAC Address using N-Maps
+
+* *White-listing IP-addresses* means that the target PC has *allowed* list of certain IP-addresses to pass through.
+* *Black-listing IP addresses* means that the target PC has *blocked* list of certain IP-addresses to pass through.
+* Type in the following commands to spoof your MAC address with white-listed IP-address.
+```
+root@kali: nmap -g 80 <your-IP-address>
+nmap --spoof --mac <sppof-MAC-address> <your-IP-address>
+```
+
+# Advanced N-Map Scripts
+* N-Map scripts can be found in this location : `cd /usr/share/nmap/scripts`.
+* Clone the following repository : [VulScan](https://github.com/scipag/vulscan)
+* Following commands *rates a website* based on vulnerability on a scale of 1-10.
+```
+root@kali: nmap --script=ssh-brute.nse <your-IP-address>
+nmap --script vulscan, nmap-vulners -sV <your-IP-address>
+
+```
