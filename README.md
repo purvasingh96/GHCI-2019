@@ -11,5 +11,5 @@ Table of Contents
 * [Basic Networking Technologies](https://github.com/purvasingh96/FSociety/blob/master/Networking%20Terminologies.md)
 * [Passive Information Gathering](https://github.com/purvasingh96/FSociety/blob/master/Passive%20Information%20Gathering.md)
 * [Active Information Gathering](https://github.com/purvasingh96/FSociety/blob/master/Active%20Information%20Gathering.md)
-* [Web Penetration Testing](https://github.com/purvasingh96/FSociety/blob/master/Web%20Penetration%20Testing.md)
+* [Web Penetration Testing](https://github.com/purvasingh96/FSociety/blob/master/Web%20Application%20Penetration%20Testing/ReadMe.md)
 * [References](https://github.com/purvasingh96/FSociety/blob/master/References.md)
