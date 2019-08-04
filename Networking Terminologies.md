@@ -1,1 +1,0 @@
-# Basic networking terminologies
