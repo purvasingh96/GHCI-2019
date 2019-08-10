@@ -9,7 +9,7 @@ Injection attacks refer to a broad class of attack vectors. In an injection atta
 * Website might interpret user's input as part of code. E.g. SQL queries in JavaScript code.
 
 ## Different Types of Injection Attacks
-* Command Injection
-* SQL Injection
-* XML Injection
-* XSS Injection
+* [Command Injection](https://github.com/purvasingh96/FSociety/blob/master/Web%20Application%20Penetration%20Testing/Injection%20Attacks/Command%20Injection/Readme.md)
+* [SQL Injection](https://github.com/purvasingh96/FSociety/blob/master/Web%20Application%20Penetration%20Testing/Injection%20Attacks/SQL%20Injection/Readme.md)
+* [XML Injection](https://github.com/purvasingh96/FSociety/blob/master/Web%20Application%20Penetration%20Testing/Injection%20Attacks/XML%20Injection/Readme.md)
+* [XSS Injection](https://github.com/purvasingh96/FSociety/blob/master/Web%20Application%20Penetration%20Testing/Injection%20Attacks/XSS%20Injection/Readme.md)
