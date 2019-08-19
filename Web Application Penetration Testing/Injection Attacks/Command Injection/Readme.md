@@ -34,9 +34,9 @@
  ```
 * There would be **no output** once you perform this command line injection.<br><br>
 <img src="./images/06.command_injection_02.png"></img>
-* Once you submit, **go back to kali linux** and you would see the following output:<br>
+* Once you submit, **go back to kali linux** and you would see the following output:<br><br>
 <img src="./images/07.command_injection_output.png"></img>
-* If you type the **command `whoami`,** you should see `www -data`<br>
+* If you type the **command `whoami`,** you should see `www -data`<br><br>
 <img src="./images/08.whoami.png"></img>
 
 
