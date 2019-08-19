@@ -23,7 +23,9 @@
 * Anything after '#' is considered as a comment in SQL language.
 
 ### INFORMATION_SCHEMA.SCHEMATA table
-* A schema is a database, so the SCHEMATA table provides information about databases.
+* A schema is a database, so the SCHEMATA table provides information about databases.<br>
+
+
 | Column name                    | Description                                                                        |
 |--------------------------------|------------------------------------------------------------------------------------|
 | **CATALOG_NAME**               | The name of the catalog to which the schema belongs.<br> This value is always def. |
@@ -32,6 +34,8 @@
 | **DEFAULT_COLLATION_NAME**     | The schema default collation.                                                      |
 | **SQL_PATH**                   | This value is always NULL.                                                         |
 | **DEFAULT_ENCRYPTION**         | The schema default encryption.                                                     |
+
+
 
 * Syntax:<br>
 ```
