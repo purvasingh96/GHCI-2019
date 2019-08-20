@@ -33,3 +33,19 @@ genre=')]/*|//*[contains('1','1
 
 ## Step 7: Extract passwords
 <img src="./images/04.extracted_user_pass.png"></img>
+
+# Automate XML Injection using XCat
+
+* Installation - pip. Enter the following command in cmd to install pip in kali.<br>
+```
+apt-get install python3-pip
+```
+* Installation - xcat.<br>
+```
+pip3 install xcat
+```
+XCat help:<br>
+<img src="./images/08.xcat.png"></img>
+
+
+
