@@ -20,4 +20,11 @@
  ## XSS Injection's Output
   <img src="./image/02.xss_output.png"></img><br>
  
+ # Stored XSS
+ * For performing stored-xss attack, migrate to **wacko-picko** in OWASP.
+ * Migrate to **guestbook** section and fill the detials.
+ * In place of comments section, you can type any javascript code. For. ex.
  
+ * Every time you visit the vulnerable page, you would be prompted with **hello alert message**
+ * This is an example of **stored xss attack**, more dangerous than reflected xss.
+ * In reflected xss, we would have to send the malacious link to the user, so that user **redirects himself to vulnerable webiste.**
