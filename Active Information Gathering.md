@@ -5,7 +5,7 @@
 To play-around with active information gathering concepts, [Metasploitable2](https://sourceforge.net/projects/metasploitable/) is the best option to go with.<br>
 **Metasploitable** is intentionally vulnerable VM, which emulates a vulnerable target and is used to practice common penetration methods.
 
-# NMap
+# Nmap
 
 * NMap or network-mapper is free and open source tool used for *vulnerability scanning and discovery.*
 * Identifies devices that are running on your local network.
