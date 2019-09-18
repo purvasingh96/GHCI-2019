@@ -19,8 +19,10 @@ To play-around with active information gathering concepts, [Metasploitable2](htt
 | 1.   | `nmap <your-ip-address>`     | Scan a single IP           |
 | 2.   | `nmap -A <your-ip-address>`  | Detect OS and Services     |
 | 3.   | `nmap -sV <your-ip-address>` | Standard service detection |
-| 4.   | `nmap -sT 192.168.1.1`       | Scan using TCP connect     |
+| 4.   | `nmap -sT 192.168.1.1`       | Scan using TCP connect. Performs full 3-way handshake inorder to scan target.     |
 | 5.   | `nmap -sS 192.168.1.1`     | Scan using TCP SYN scan (default) |
+| 6.   | `nmap -Pn 192.168.1.19`     | Discovers open ports. |
+
 
 # By-pass Firewalls with N-Maps
 
