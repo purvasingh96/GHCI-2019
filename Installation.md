@@ -38,7 +38,41 @@ Follow the below steps to create a virtual machine using virtual box.<br>
 
 ## Step - 8: Start Kali Virtual Machine
 *Note : There would be a list of questions that you would have to answer before kali installation begins.*<br>
-<img src="images/step_9.png" width="350" >
+
+### Step - 8.1 Click on install kali 
+<img src="images/kali_installation_questions/step_1_install.png">
+
+### Step - 8.2 Language Selection
+<img src="images/step_9.png">
+
+### Step - 8.3 Kali Installation Begins
+<img src="images/kali_installation_questions/step_2_kali_install.png">
+
+### Step - 8.4 Name Your Kali
+<img src="images/kali_installation_questions/step_3_name_your_kali.png">
+
+### Step - 8.5 Leave Domain Name Blank
+<img src="images/kali_installation_questions/step_4_leave_domain_name_blank.png">
+
+### Step - 8.6 Network Mirror
+<img src="images/kali_installation_questions/step_1_netwrok_mirror_yes.png">
+
+### Step - 8.7 Kali Installation Continues
+<img src="images/kali_installation_questions/step_2_kali_install.png">
+
+### Step - 8.8 Set Password
+<img src="images/kali_installation_questions/step_5_set_password.png">
+
+### Step - 8.9 Confirm Password
+<img src="images/kali_installation_questions/step_6_cofirm_password.png">
+
+### Step - 8.10 Select Timezone
+<img src="images/kali_installation_questions/step_7_select_timezone.png">
+
+### Step - 8.11 Partition Disk
+<img src="images/kali_installation_questions/step_8_partition.png">
+<img src="images/kali_installation_questions/step_9_partition_disk.png">
+
 
 ## Step - 9: After successful installation, you would be required to authenticate
 *Notes :*<br>
