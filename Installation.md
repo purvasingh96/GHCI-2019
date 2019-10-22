@@ -73,6 +73,15 @@ Follow the below steps to create a virtual machine using virtual box.<br>
 <img src="images/kali_installation_questions/step_8_partition.png">
 <img src="images/kali_installation_questions/step_9_partition_disk.png">
 
+### Step - 8.12 Select Partitioning Scheme
+<img src="images/kali_installation_questions/step_10_partioning_scheme.png">
+
+### Step - 8.13 Finish Partitioning
+<img src="images/kali_installation_questions/step_11_finish_partitioning.png">
+
+### Step - 8.14 Installation Continues
+<img src="images/kali_installation_questions/step_12_start_installatin.png">
+
 
 ## Step - 9: After successful installation, you would be required to authenticate
 *Notes :*<br>
