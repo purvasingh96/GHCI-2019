@@ -8,6 +8,7 @@
 Table of Contents
 ==================
 
+* [Grace Hopper Presentation Deck](https://github.com/purvasingh96/FSociety/blob/master/GHCI%20-%202019/GHCI%202019%20Workshop%20Deck.pptx)
 * [Installing VM and Kali on virtual box](https://github.com/purvasingh96/FSociety/blob/master/Installation.md) 
 * [View Kali Linux in full-screen mode](https://github.com/purvasingh96/FSociety/blob/master/kali_full_screen_mode.md)
 * [Basic Linux Commands](https://github.com/purvasingh96/FSociety/blob/master/Basic%20Linux%20Commands.md)
