@@ -1,6 +1,6 @@
  ![OS](https://img.shields.io/badge/Tested%20On-Linux%20|%20Windows-yellowgreen.svg?style=flat-square) [![Python2.7](https://img.shields.io/badge/Python-2.7-green.svg?style=flat-square)](https://www.python.org/downloads/release/python-2714/) [![Python3](https://img.shields.io/badge/Python-3-green.svg?style=flat-square)](https://github.com/Manisso/fsociety/tree/python3)
 
-# FSociety
+# Ethical Hacking and Penetration Testing
 ## A penetration testing framework
 
 <img src="./ghci_2019_group_photo.png"></img>
