@@ -3,7 +3,10 @@
 # Ethical Hacking and Penetration Testing
 ## A penetration testing framework
 
+<p><a href="https://ghcindia.anitab.org/galleries/ghci-19/attachment/ghci-19-purva-singh/">
 <img src="./ghci_2019_group_photo.png"></img>
+ <a>
+</p>
 
 Table of Contents
 ==================
