@@ -1,4 +1,4 @@
- ![OS](https://img.shields.io/badge/Tested%20On-Linux%20|%20Windows-yellowgreen.svg?style=flat-square) [![Python2.7](https://img.shields.io/badge/Python-2.7-green.svg?style=flat-square)](https://www.python.org/downloads/release/python-2714/) [![Python3](https://img.shields.io/badge/Python-3-green.svg?style=flat-square)](https://github.com/Manisso/fsociety/tree/python3)
+ ![OS](https://img.shields.io/badge/Tested%20On-Linux%20|%20Windows-yellowgreen.svg?style=flat-square) [![Python2.7](https://img.shields.io/badge/Python-2.7-green.svg?style=flat-square)](https://www.python.org/downloads/release/python-2714/) [![Python3](https://img.shields.io/badge/Python-3-green.svg?style=flat-square)](https://github.com/Manisso/fsociety/tree/python3) 
 
 # [Ethical Hacking and Penetration Testing](https://raw.githubusercontent.com/purvasingh96/Ethical-Hacking-and-Penetration-Testing/master/GHCI%20-%202019/GHCI%202019%20Workshop%20Deck.pptx)
 ## A penetration testing framework
