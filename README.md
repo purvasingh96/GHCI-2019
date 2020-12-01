@@ -1,6 +1,6 @@
  ![OS](https://img.shields.io/badge/Tested%20On-Linux%20|%20Windows-yellowgreen.svg?style=flat-square) [![Python2.7](https://img.shields.io/badge/Python-2.7-green.svg?style=flat-square)](https://www.python.org/downloads/release/python-2714/) [![Python3](https://img.shields.io/badge/Python-3-green.svg?style=flat-square)](https://github.com/Manisso/fsociety/tree/python3)
 
-# Ethical Hacking and Penetration Testing
+# [Ethical Hacking and Penetration Testing](https://github.com/purvasingh96/FSociety/blob/master/GHCI%20-%202019/GHCI%202019%20Workshop%20Deck.pptx)
 ## A penetration testing framework
 
 <p><a href="https://ghcindia.anitab.org/galleries/ghci-19/attachment/ghci-19-purva-singh/">
